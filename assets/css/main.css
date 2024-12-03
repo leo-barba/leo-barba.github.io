@@ -3206,6 +3206,7 @@ input, select, textarea {
 
 				#header h1 br {
 					display: none;
+					text-align: center;
 				}
 
 		/* Footer */
