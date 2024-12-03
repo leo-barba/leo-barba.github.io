@@ -3194,29 +3194,26 @@ input, select, textarea {
 
 	}
 
-/* XSmall */
-
+/* XSmall (max-width: 480px) */
 	@media screen and (max-width: 480px) {
+		#header h1 {
+			white-space: normal;
+			text-align: center;
+		}
 
-		/* Header */
+		#header h1 strong {
+			display: block;
+		}
+	}
 
-			#header {
-				padding: 4.5em 1.5em;
-			}
+	/* Small (max-width: 736px) */
+	@media screen and (max-width: 736px) {
+		#header h1 {
+			white-space: normal;
+			text-align: center;
+		}
 
-				#header h1 br {
-					display: none;
-					text-align: center;
-				}
-
-		/* Footer */
-
-			#footer .copyright li {
-				border-left-width: 0;
-				display: block;
-				line-height: 2.25em;
-				margin-left: 0;
-				padding-left: 0;
-			}
-
+		#header h1 strong {
+			display: block;
+		}
 	}
