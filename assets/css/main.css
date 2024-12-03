@@ -2142,9 +2142,12 @@ input, select, textarea {
 			}
 
 			.image.avatar img {
-				border-radius: 100%;
-				width: 100%;
+				border-radius: 50%; /* Keep the circular style */
+				width: 200px;       /* Set a fixed width */
+				float: left;        /* Float the image to the left */
+				margin-right: 20px; /* Add spacing between the image and text */
 			}
+			
 
 /* List */
 
